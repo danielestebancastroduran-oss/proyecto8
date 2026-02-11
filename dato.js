@@ -1,3 +1,4 @@
-const saludar = require('./saludo');
+const operaciones = require('./operaciones');
 
-console.log(saludar("daniel"));
+console.log("Suma:", operaciones.sumar(10, 5));
+console.log("Resta:", operaciones.restar(10, 5));
